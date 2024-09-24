@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COUCOU</h1>
+        <p>
+            Bon, pour vérifier que c'est bien <b><i>Isma</i></b> qui utilise ce QR code.<br>
+            Je vais te poser une question simple, réponds correctement pour déverrouiller la surprise.
+        </p>
+        <div class="form-container">
+            <form action="" method="get" class="question" onsubmit="return mdp(event)">
+                <label for="texxt">Écris ton deuxième prénom suivi de la date de notre premier message :</label>
+                <input type="text" required id="texxt" placeholder="ex: yacine09/03/2005 ne met aucun espace">
+                <input type="submit" value="QUEEEEE" id="subBTN">
+            </form>
+            <!-- Message affiché après soumission -->
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="doc.js"></script>
+</body>
+</html>
